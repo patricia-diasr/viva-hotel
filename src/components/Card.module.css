@@ -7,41 +7,40 @@
     width: 11em;
     position: relative;
     cursor: pointer;
-  }
-  
-  .card .img {
+}
+
+.card .img {
     width: 10em;
     height: 8em;
     margin-bottom: 0.5em;
     border-radius: 0.5em;
     object-fit: cover;
-  }
-  
-  .card .description {
+}
+
+.card .description {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.3em;
     padding-bottom: 1.5em;
-  }
-  
-  .card p {
+}
+
+.card p {
     text-align: center;
-  }
-  
-  .card .stars {
+}
+
+.card .stars {
     margin-top: 0.1em;
     position: absolute;
     bottom: 0.5em;
-  }
-  
-  .card .icon {
-    fill: #FF9933;
+}
+
+.card .icon {
+    fill: #ff9933;
     font-size: 1em;
     margin: 0 3px;
-  }
-  
-  .card h3 {
+}
+
+.card h3 {
     text-align: center;
-  }
-  
+}

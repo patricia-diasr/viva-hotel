@@ -1,47 +1,47 @@
 :root {
-  --fundo-light: #fefefe;
-  --menu-light: #026e81;
-  --link-light: #ff9933;
-  --fonte-light: #000;
-  --formulario-light: #f9f9f9;
-  --botao-light: #00abbd;
+    --fundo-light: #fefefe;
+    --menu-light: #026e81;
+    --link-light: #ff9933;
+    --fonte-light: #000;
+    --formulario-light: #f9f9f9;
+    --botao-light: #00abbd;
 
-  --fundo-dark: #121212;
-  --menu-dark: #353535;
-  --link-dark: #ff9800;
-  --fonte-dark: #e0e0e0;
-  --formulario-dark: #333333;
-  --botao-dark: #03a9f4;
+    --fundo-dark: #121212;
+    --menu-dark: #353535;
+    --link-dark: #ff9800;
+    --fonte-dark: #e0e0e0;
+    --formulario-dark: #333333;
+    --botao-dark: #03a9f4;
 
-  --fundo: var(--fundo-light);
-  --menu: var(--menu-light);
-  --link: var(--link-light);
-  --fonte: var(--fonte-light);
-  --formulario: var(--formulario-light);
-  --botao: var(--botao-light);
+    --fundo: var(--fundo-light);
+    --menu: var(--menu-light);
+    --link: var(--link-light);
+    --fonte: var(--fonte-light);
+    --formulario: var(--formulario-light);
+    --botao: var(--botao-light);
 }
 
 [data-theme="dark"] {
-  --fundo: var(--fundo-dark);
-  --menu: var(--menu-dark);
-  --link: var(--link-dark);
-  --fonte: var(--fonte-dark);
-  --formulario: var(--formulario-dark);
-  --botao: var(--botao-dark);
+    --fundo: var(--fundo-dark);
+    --menu: var(--menu-dark);
+    --link: var(--link-dark);
+    --fonte: var(--fonte-dark);
+    --formulario: var(--formulario-dark);
+    --botao: var(--botao-dark);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
-  background: var(--fundo);
+    background: var(--fundo);
 }
 
 main {
-  padding: 1em 2em;
-  color: var(--fonte);
+    padding: 1em 2em;
+    color: var(--fonte);
 }

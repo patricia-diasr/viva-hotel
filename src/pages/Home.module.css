@@ -1,41 +1,40 @@
 .home h1 {
     margin: 0.5em 0 1em 0;
-  }
-  
-  .home .cards {
+}
+
+.home .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     justify-content: center;
-  }
-  
-  .filtros {
+}
+
+.filtros {
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 600px;
     margin-bottom: 20px;
-  }
-  
-  .pesquisa,
-  .ordenacao {
+}
+
+.pesquisa,
+.ordenacao {
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 48%;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .filtros {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .pesquisa,
     .ordenacao {
-      width: 100%;
-      margin-bottom: 10px;
+        width: 100%;
+        margin-bottom: 10px;
     }
-  }
-  
+}
