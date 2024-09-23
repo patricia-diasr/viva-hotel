@@ -1,0 +1,133 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: var(--formulario);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .mainImage {
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .images {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .otherImages {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .options button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .editButton {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .favoriteButton {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .detail h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info {
+    font-size: 1.2rem;
+  }
+  
+  .detail h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .detail p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .detail ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .detail li {
+    background: #eee;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #020202;
+  }
+  
+  @media (max-width: 768px) {
+    .mainImage {
+      width: 100%;
+      height: 300px;
+    }
+  
+    .images {
+      gap: 0.5rem;
+    }
+  
+    .otherImages {
+      width: 180px;
+      height: 100px;
+    }
+  
+    .detail h1 {
+      font-size: 1.5rem;
+    }
+  
+    .info {
+      font-size: 1rem;
+    }
+  
+    .detail h2 {
+      font-size: 1.2rem;
+    }
+  
+    .detail p {
+      font-size: 0.9rem;
+    }
+  
+    .detail li {
+      font-size: 0.9rem;
+    }
+  }
+  

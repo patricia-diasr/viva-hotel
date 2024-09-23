@@ -1,0 +1,10 @@
+.favoritos h1 {
+  margin: 0.5em 0 1em 0;
+}
+
+.favoritos .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
